@@ -9,7 +9,6 @@ describe "math function" do
 		sub(10, 5) == 5
 	end
 
-
 	it "multiple number" do
 		mul(5, 4) == 20
 	end
