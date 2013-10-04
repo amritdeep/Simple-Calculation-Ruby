@@ -4,3 +4,9 @@ describe "add function"	do
 		add(8, 2) == 10 
 	end
 end
+
+describe "subtract function" do
+	it "subtract two number" do
+		sub(10, 5) == 5
+	end
+end
