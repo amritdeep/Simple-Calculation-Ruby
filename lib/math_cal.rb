@@ -1,19 +1,24 @@
-# def math a, b
-# 	a + b
-# end
+class Calculation 
+	attr_accessor :a, :b
 
-def add a,b
-	a + b
-end
+	def initialize(a, b)
+		@a = a
+		@b = b
+	end
 
-def sub a, b
-	a - b
-end
+	def add
+		@a + @b
+	end
 
-def mul a, b
-	a * b
-end
+	def subtract
+		@a - @b
+	end
 
-def div a, b
-	a / b
+	def multiple
+		@a * @b
+	end
+
+	def divide
+		@a / @b
+	end
 end
